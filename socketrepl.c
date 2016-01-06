@@ -95,7 +95,12 @@ int main(int argc, char* argv[]) {
 
 void print_usage(char* program_name) {
     fprintf(stderr,
-            "usage -- %s <host> <port>\n",
+            "usage -- %s <host> <port>\n\
+\n\
+    Connects to a remote host and treats it like an REPL,\n\
+    sending standard input to the server. Any responses from\n\
+    the server are printed to standard output, immediately and\n\
+    asynchronously.\n",
     		program_name);
 } 
 
