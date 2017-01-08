@@ -1,6 +1,6 @@
 #socketrepl
 
-[![Build Status](https://travis-ci.org/williamyao/socketrepl.svg?branch=master)](https://travis-ci.org/williamyao/socketrepl)
+[![Build Status](https://travis-ci.org/williamyaoh/socketrepl.svg?branch=master)](https://travis-ci.org/williamyaoh/socketrepl)
 
 Trivial application to open a connection to a remote host, and treat
 it as if it was an asynchronous REPL.
